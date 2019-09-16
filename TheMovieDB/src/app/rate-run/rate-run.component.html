@@ -1,1 +1,4 @@
-<h1></h1>
+<div *ngFor="let movie of MOVIES">
+    <div><span>Rating: </span>{{movie.rating}}</div>
+    <div><span>Runtime: </span>{{movie.runtime}} Minutes</div>
+</div>

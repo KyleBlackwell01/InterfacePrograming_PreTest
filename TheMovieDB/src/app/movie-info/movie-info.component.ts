@@ -18,4 +18,7 @@ export class MovieInfoComponent implements OnInit {
     this.MOVIES = MOVIES;
   }
 
+
+
+
 }

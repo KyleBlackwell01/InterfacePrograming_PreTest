@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Movie } from '../movie';
+import { MOVIES } from '../mock-movies';
 
 @Component({
   selector: 'app-movie-thumbnail',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovieThumbnailComponent implements OnInit {
 
+  MOVIES: Movie[]
+
+  
+  
+
   constructor() { }
 
   ngOnInit() {
+    this.MOVIES = MOVIES;
   }
+
+
 
 }

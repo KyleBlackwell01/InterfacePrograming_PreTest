@@ -14,6 +14,7 @@ export class ShortDescComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.movies = MOVIES;
   }
 
 }
